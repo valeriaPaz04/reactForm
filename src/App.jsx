@@ -13,9 +13,9 @@ function App() {
     <main className="Login">
         <Routes>
           <Route path="/" element={<LoginForm />} />
-          <Route path="login/" element={<LoginForm />} />
-          <Route path="register/" element={<RegisterForm />} />
-          <Route path="welcome/" element={<WelcomePage />} />
+          <Route path="login" element={<LoginForm />} />
+          <Route path="register" element={<RegisterForm />} />
+          <Route path="welcome" element={<WelcomePage />} />
         </Routes>
     </main>
   )

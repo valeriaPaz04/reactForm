@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode> 
-    <BrowserRouter basenamed="/reactForm">
+    <BrowserRouter basename="/reactForm">
       <App />
     </BrowserRouter>
   </StrictMode>,
