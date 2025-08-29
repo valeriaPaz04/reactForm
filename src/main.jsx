@@ -4,10 +4,10 @@ import App from './App.jsx'
 
 import { BrowserRouter } from 'react-router-dom'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode> 
-    <BrowserRouter>
+createRoot(document.getElementById('root')).render(
+  <StrictMode> 
+    <BrowserRouter basenamed="/reactForm">
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
+  </StrictMode>,
 )
