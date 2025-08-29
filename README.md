@@ -1,12 +1,51 @@
-# React + Vite
+# React Form App 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una aplicación web de registro y autenticación de usuarios con React Router y animaciones visuales interactivas.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Registro de usuarios** con formulario de 5 campos
+- **Sistema de login** con validación
+- **Animaciones progresivas** - Las imágenes se colorean conforme completas los campos
+- **Página de bienvenida** personalizada
+- **Persistencia local** usando localStorage
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18
+- React Router DOM
+- CSS3 con animaciones
+- LocalStorage para datos
+
+## 📦 Ejecución
+
+```bash
+npm install
+npm run dev
+```
+
+## 🎯 Uso
+
+1. **Registro**: Completa los 5 campos y ve cómo la imagen se colorea progresivamente
+2. **Login**: Ingresa tus credenciales para acceder
+3. **Bienvenida**: Visualiza tu información de perfil
+
+## 📁 Estructura
+
+```
+src/
+├── assets
+├── components/
+│   ├── LoginForm.jsx
+│   ├── RegisterForm.jsx
+│   └── WelcomePage.jsx
+├── App.jsx
+├── login.css
+├── main.jsx
+├── register.css
+└── welcome.css
+```
+
+## 👩‍💻 Autora
+**Valeria Paz Arana**  
+Ficha: 3147921
