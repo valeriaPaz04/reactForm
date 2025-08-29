@@ -111,7 +111,7 @@ const RegisterForm = () => {
                         <label htmlFor="fecha-nacimiento">Fecha Nacimiento</label>
                     </div>
                     
-                    <p className="registerUser">¿Ya tienes una cuenta? <a href="login/">Iniciar sesión</a></p>
+                    <p className="registerUser">¿Ya tienes una cuenta? <Link to="/login">Iniciar sesión</Link></p>
                     <button type="submit">Registrar</button>
                 </form>
             </div>

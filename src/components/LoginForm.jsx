@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const LoginForm = () => {
     // El estado loginData se utiliza para almacenar los datos del formulario (email, password).
@@ -92,7 +93,7 @@ const LoginForm = () => {
                         <label htmlFor="password">Password</label>
                     </div>
                     
-                    <p className="user">No tienes una cuenta? <a href="/register">Registrate</a></p>
+                    <p className="user">No tienes una cuenta? <Link to="/register">Registrate</Link></p>
                     <button type="submit">Iniciar Sesión</button>
                 </form>
             </div>
