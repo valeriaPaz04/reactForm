@@ -1,0 +1,98 @@
+.register-container{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 100px 0px 150px;
+}
+.two h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.two p{
+    font-size: 19px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.registerUser{
+    font-size: 16px;
+    margin-top: 30px;
+}
+.registerUser a{
+    color: #2da1ea;
+    text-decoration: none;
+    padding-left: 5px;
+}
+.registerUser a:hover{
+    text-decoration: underline;
+}
+.register-container button{
+    padding: 15px 0px;
+    margin-top: 40px;
+    width: 35%;
+    border-radius: 40px;
+    border: none;
+    background-color: #2da1ea;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.register-container button:hover{
+    background-color: #5fb8f1;
+}
+
+/* --- Estilos para las capas de RegisterForm --- */
+.imagendos {
+  position: relative;
+  width: 600px;
+  max-width: 90%;
+  margin: auto;
+  aspect-ratio: 1060 / 1060;
+  overflow: hidden;
+}
+
+/* Estilo base para TODAS las capas dentro de .imagendos */
+.imagendos > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Imagen de fondo B&W */
+.imagendos .bw2 {
+  object-fit: contain;
+  filter: grayscale(100%);
+  z-index: 1;
+}
+/* Estilo base para las 5 capas de superposición */
+.imagendos [class^="register-layer-"] {
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 6.5%;
+  opacity: 0; /* Ocultas por defecto */
+  transition: opacity 0.5s ease-in-out;
+}
+.imagendos .visible {
+  opacity: 1;
+}
+
+.imagendos .register-layer-1 {
+  background-image: url("./assets/imgHalf1.png");
+  z-index: 2;
+}
+.imagendos .register-layer-2 {
+  background-image: url("./assets/imgHalf2.png");
+  z-index: 3;
+}
+.imagendos .register-layer-3 {
+  background-image: url("./assets/imgHalf3.png");
+  z-index: 4;
+}
+.imagendos .register-layer-4 {
+  background-image: url("./assets/imgHalf4.png");
+  z-index: 5;
+}
+.imagendos .register-layer-5 {
+  background-image: url("https://img.freepik.com/vector-premium/homosexuales-ponen-marca-verificacion-barra-tareas-concepto-realizar-tareas-resolver-problemas_253334-151.jpg?w=1060");
+  z-index: 6;
+}

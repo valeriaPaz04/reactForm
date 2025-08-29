@@ -1,0 +1,79 @@
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f9f9f9;
+}
+.welcome-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    padding: 25px 35px;
+    box-shadow: 0 8px 20px rgba(95, 184, 241, 0.2);
+    max-width: 350px;
+    width: 100%;
+    text-align: center;
+}
+
+.avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #5fb8f1;
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 10px rgba(102, 102, 102, 0.4);
+}
+
+.welcome-container h2{
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.user-info{
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+}
+.user-info p{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin: 8px 0;
+}
+.user-info i{
+    color: #555;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    background-color: #5fb8f1;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.welcome-container button:hover{
+    background-color: #5fb8f1;
+    box-shadow: 0 4px 10px rgba(45, 161, 234, 0.4);
+}
