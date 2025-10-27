@@ -48,4 +48,3 @@ src/
 
 ## 👩‍💻 Autora
 **Valeria Paz Arana**  
-Ficha: 3147921
